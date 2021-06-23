@@ -22,7 +22,7 @@ jobs:
         projectBaseDir: WeatherAPI-SonarQube
         args: >
           -Dsonar.organization=najimd
-          -Dsonar.projectKey=NajimD_SonarQube-Test
+          -Dsonar.projectKey=NajimD_SonarQube
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
