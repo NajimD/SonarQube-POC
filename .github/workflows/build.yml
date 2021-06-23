@@ -19,6 +19,7 @@ jobs:
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       with:
+        projectBaseDir: WeatherAPI-SonarQube
         args: >
           -Dsonar.organization=najimd
           -Dsonar.projectKey=NajimD_SonarQube-Test
