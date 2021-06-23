@@ -20,8 +20,8 @@ jobs:
       uses: sonarsource/sonarcloud-github-action@master
       with:
         args: >
-          -Dsonar.organization=my-organization
-          -Dsonar.projectKey=my-projectkey
+          -Dsonar.organization=najimd
+          -Dsonar.projectKey=${{ secrets.SONAR_TOKEN }}
           -Dsonar.python.coverage.reportPaths=coverage.xml
           -Dsonar.sources=lib/
           -Dsonar.test.exclusions=tests/**
