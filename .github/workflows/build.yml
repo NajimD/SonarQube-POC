@@ -21,7 +21,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=najimd
-          -Dsonar.projectKey=${{ secrets.SONAR_TOKEN }}
+          -Dsonar.projectKey=NajimD_SonarQube-Test
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
