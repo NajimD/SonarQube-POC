@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAPI-SonarQube", "WeatherAPI-SonarQube\WeatherAPI-SonarQube.csproj", "{6DBFF77C-FD30-47D1-8C55-D224463E7694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DBFF77C-FD30-47D1-8C55-D224463E7694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBFF77C-FD30-47D1-8C55-D224463E7694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBFF77C-FD30-47D1-8C55-D224463E7694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBFF77C-FD30-47D1-8C55-D224463E7694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD5ECA19-7701-49CE-90E6-02BFEC3B0A63}
+	EndGlobalSection
+EndGlobal
